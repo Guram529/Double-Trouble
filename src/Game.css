@@ -1,0 +1,71 @@
+/* Container for the game */
+.game-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the displayed word */
+.word-display {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Container for the answer buttons */
+.answer-container {
+  margin-bottom: 20px;
+}
+
+/* Styling for each answer button */
+.answer-button {
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.answer-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the timer display */
+.timer-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the score display */
+.score-display {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the feedback message */
+.feedback-message {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for the game over message */
+.game-over-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the try again button */
+.try-again-button {
+  font-size: 24px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.try-again-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
